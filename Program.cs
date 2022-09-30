@@ -24,19 +24,19 @@
 
 
 
-// Console.Clear();
-// Console.Write("Введите первое число: ");
-// int n = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.Write("Введите первое число: ");
+int n = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Введите второе число: ");
 // int m = Convert.ToInt32(Console.ReadLine());
 
-// int A(int n)
-// // int B(int m)
-// {
-//    if (m == 0) return 0;
-//    return n + A(n-1);
-// }
-// Console.WriteLine(A(n));
+int A(int n)
+// int B(int m)
+{
+   if (n == 0) return 0;
+   return n + A(n-1);
+}
+Console.WriteLine(A(n));
 
 
 
